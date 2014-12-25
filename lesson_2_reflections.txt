@@ -1,0 +1,35 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, it creates an empty repository and a hidden folder called .git. You need to initialize a new repository to signal to Git that files in the current directory will be committed in Git
+
+=======================================
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different from the working directory and the repository because the files in the staging area signals to Git which files in the working directory we would like to put in the repository. It offers the ability to separate files in a working directory into 2 categories: one that's an ordinary file, and a file that we care to track
+the changes of by using a repository.
+
+=======================================
+
+How can you use the staging area to make sure you have one commit per logical change?
+If you have to fix a bug that spans several files, you can use the staging area to put each of the files in the staging area until you have finished making a logical change.
+
+=======================================
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful if you have to add experimental features or bug fixes; if you are creating another version in another language and you are not sure whether you can roll the changes in the master branch. Branches help you logically organize changes you are not fully ready to put on the master branch but ones you would like to track the changes to overtime.
+
+=======================================
+How do the diagrams help you visualize the branch structure?
+It provides a road map of the main master branch, and the commit id that you may have branched off from.
+
+=======================================
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Changes in any of the two branches are merged into the new master branch. The diagram representation shows a new node for master. The master node points back to two other parents--one to the most recent coin commit and other to the previous master commit.
+=======================================
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros of automatic merging is that Git can determine how to merge the branch for me when there is no conflict without me having to do anything. The cons of doing merges manually would be that it will become very tedious
+to edit changes when git can do it as long as conflict doesn't exist.
+
