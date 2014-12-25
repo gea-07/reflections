@@ -1,1 +1,9 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+If you are working on a project, sometimes you might want to use a home computer and sometimes a work computer. Having a remote repository where you can pull and push changes will allow you to work on both. Also, if several people are collaborating on a project, then having a remote repository will allow everyone to work and merge their changes into a master repository on GitHub.
+===================================
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+While you are working on a project fixing a bug or adding a feature, you wouldn't want Git to automatically pull from the remote repository because you want to have a known stable base that you can work on, not a constantly changing code base. When you have logically added all the changes you need to make on your local repository, then that's when you might decide to do a manual pull.
+===================================
