@@ -57,5 +57,13 @@ several files, he/she emails the owner with the files. The owner is in
 charge of merging the changes to the Dropbox folder. This could make the
 project finish on schedule (easier), but harder to do the merge manually
 for both the owner and the programmers making changes.
+===================================
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
+You want to make changes in a separate branch in order to initiate a pull request from GitHub.
+A pull request will allow other people to collaborate, comment, and add code to your project.
+It allows programming in a social ecosystem where input from others is highly desirable and
+supported. On the other hand, changes directly in master may mean that you are the lone
+user of a project who would like to track changes over time. Branch changes invites collaboration.
+Direct master changes allows tracking over time.
 
