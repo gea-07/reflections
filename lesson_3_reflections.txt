@@ -14,7 +14,8 @@ automatically stay up-to-date with your remote repository?
 While you are working on a project fixing a bug or adding a feature, you
 wouldn't want Git to automatically pull from the remote repository because
 you would want to have a known base that you could work on, not a constantly
-changing code base. When you have logically added all the changes you needed to make on your local repository, then that's when you might decide to do a
+changing code base. When you have logically added all the changes you needed
+to make on your local repository, then that's when you might decide to do a
 manual pull.
 ===================================
 Describe the differences between forks, clones, and branches. When would you
@@ -22,7 +23,8 @@ use one instead of another?
 
 You use a fork to copy someone's GitHub repository into a repository under
 your own GitHub account. You would want to use fork to make changes to
-a repository on GitHub that you don't have a permission to change. On the other hand, you can use clone to behave like a fork, but clone will only
+a repository on GitHub that you don't have a permission to change. On the
+other hand, you can use clone to behave like a fork, but clone will only
 apply to your local repositories on your computer. You could also clone
 GitHub repositories to your local computer. Branches will allow you to
 fix a bug or add a feature on a branch of the tree that is not the master
@@ -32,6 +34,28 @@ with other people in a team or individually to only roll out stable and
 tested code.
 ===================================
 What is the benefit of having a copy of the last known state of the remote stored locally?
-The benefit of having the last known state of the remote is that it allows for collaborative work to happen. By knowing the last known state of the remote, you can fetch the latest version of the remote to your local branch, merge your local changes to the remote branch, and then push it all back
+The benefit of having the last known state of the remote is that it allows for collaborative work to happen. By knowing the last known state of the
+remote, you can fetch the latest version of the remote to your local branch,
+merge your local changes to the remote branch, and then push it all back
 to the remote on GitHub.
 ===================================
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without Git or GitHub, I would collaborate by using a Dropbox shared
+directory. To prevent collission, I would enforce the rule that
+only one person can edit the file at a time. An email will be sent once
+the current owner is done editing to pass the editing baton to the next
+person. If everyone abides by this, this will make it easier to edit the file without worrying about how to merge. It would be harder to finish by the
+project deadline since this is a sequential collaboration rather than
+simultaneous changes to files.
+
+Another option is to have the same shared environment on Dropbox, but allow
+multiple programmers to edit the project locally. Only the central person
+is allowed to merge changes to the Dropbox shared folder, so in essence it
+will act as the remote repository. When a programmer is ready to submit
+several files, he/she emails the owner with the files. The owner is in
+charge of merging the changes to the Dropbox folder. This could make the
+project finish on schedule (easier), but harder to do the merge manually
+for both the owner and the programmers making changes.
+
+

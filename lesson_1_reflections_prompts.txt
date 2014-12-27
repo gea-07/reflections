@@ -1,42 +1,38 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-Diff allows you to compare an old version of a code to the modified version. A minus sign on the side of the
-comparison means that the line was deleted or modified from the old file. A plus sign on the side means that a new code
-was a added or modified in the new file. By looking at the - and + signs, you can easily spot changes
-made between the old and the new files, line by line. You can then make decisions whether the changes
-are valid or not. This will allow you to spot bugs easily.
+Diff allows you to compare an old version of a code to the modified version. A minus sign on the
+side of the comparison means that the line was deleted or modified from the old file. A plus sign
+on the side means that a new code was a added or modified in the new file. By looking at the - and
++ signs, you can easily spot changes made between the old and the new files, line by line. You can
+then make decisions whether the changes are valid or not. This will allow you to spot bugs easily.
 =======================================
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-You can be an efficient programmer when you have access to an entire history of a file because the history will
-allow you to view changes you have made yourself or by other people. Perhaps, you had incorrectly typed something, or
-you introduced a bug with changes to the code you were making. You can easily spot these with history at your
-fingertips. You can also ask other people who modified the file why they did so. In the end, having history allows
-you to be a better programmer.
+You can be an efficient programmer when you have access to an entire history of a file because the
+history will allow you to view changes you have made yourself or by other people. Perhaps, you had
+incorrectly typed something, or you introduced a bug with changes to the code you were making. You
+can easily spot these with history at your fingertips. You can also ask other people who modified
+the file why they did so. In the end, having history allows you to be a better programmer.
 =======================================
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having
-versions automatically saved, like Google docs does?
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
 The pros of manual commit are as follows:
 1. Allows you to logically commit a working/compilable feature to the main code.
 2. Allows you break up a huge change and commit working changes intermittently.
 Cons
 1. You might forget to save/commit your files
-2. Or, you might commit too often without logic or while you are in the middle of a code that is not compilable
-or workable.
+2. Or, you might commit too often without logic or while you are in the middle of a code that is not compilable or workable.
 =======================================
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others,
-like Google Docs, treat each file separately?
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-Version Control systems track a group of files that can be built together to make a running program or website.
-So a programmer should be able to commit one or many files that work together. Google Docs on the other hand are
-logically thought of as individual entities with no dependencies or inter-relation with other files.
+Version Control systems track a group of files that can be built together to make a running program or website. So a programmer should be able to commit one or many files that work together.
+Google Docs on the other hand are logically thought of as individual entities with no dependencies
+or inter-relation with other files.
 =======================================
 How might using version control make you more confident to make changes that could break something?
 
-I can always perform a diff between versions of the repository to try to find the problem. I can even checkout
-an older version of the repository to see how it behaved before I added the buggy code and then do a diff to
-find my error.
+I can always perform a diff between versions of the repository to try to find the problem. I can even checkout an older version of the repository to see how it behaved before I added the buggy
+code and then do a diff to find my error.
 =======================================
 Now that you have your workspace set up, what do you want to try using Git for?
 
