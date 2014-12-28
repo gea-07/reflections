@@ -14,7 +14,8 @@ incorrectly typed something, or you introduced a bug with changes to the code yo
 can easily spot these with history at your fingertips. You can also ask other people who modified
 the file why they did so. In the end, having history allows you to be a better programmer.
 =======================================
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having 
+versions automatically saved, like Google docs does?
 
 The pros of manual commit are as follows:
 1. Allows you to logically commit a working/compilable feature to the main code.
@@ -23,17 +24,22 @@ Cons
 1. You might forget to save/commit your files
 2. Or, you might commit too often without logic or while you are in the middle of a code that is not compilable or workable.
 =======================================
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
 
-Version Control systems track a group of files that can be built together to make a running program or website. So a programmer should be able to commit one or many files that work together.
+Version Control systems track a group of files that can be built together to make a running program or website. So 
+a programmer should be able to commit one or many files that work together.
 Google Docs on the other hand are logically thought of as individual entities with no dependencies
 or inter-relation with other files.
 =======================================
 How might using version control make you more confident to make changes that could break something?
 
-I can always perform a diff between versions of the repository to try to find the problem. I can even checkout an older version of the repository to see how it behaved before I added the buggy
+I can always perform a diff between versions of the repository to try to find the problem. I can even checkout 
+an older version of the repository to see how it behaved before I added the buggy
 code and then do a diff to find my error.
 =======================================
 Now that you have your workspace set up, what do you want to try using Git for?
 
-I would like to use Git to track all of my Udacity projects and personal project.
+I would like to use Git to track all of my Udacity projects and personal projects. I also
+like the idea of creating a repository for my family's favorite recipes, and tracking any
+documents that require collaboration.
