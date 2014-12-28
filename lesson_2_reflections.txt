@@ -25,6 +25,11 @@ another version in another language and you are not sure whether you can roll th
 master branch. Branches help you logically organize changes you are not fully ready to put on the
 master branch but ones you would like to track the changes to overtime.
 
+Branches also allow you to work collaboratively in a social ecosystem using GitHub. Basically,
+you can create a fork of someone's project in GitHub that you would like to fix or contribute to.
+Make a local branch to make your changes, and then submit a pull request to the
+original owner to merge your changes in their repository.
+
 =======================================
 How do the diagrams help you visualize the branch structure?
 It provides a road map of the main master branch, and the commit id that you may have branched off
